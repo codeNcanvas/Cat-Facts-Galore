@@ -22,7 +22,7 @@ A fun and fully functional cat facts web app that fetches random facts and image
 
 ## 📸 Screenshot
 
-![screenshot](https://placekitten.com/600/300)
+
 
 ## 📄 License
 
