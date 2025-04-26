@@ -1,0 +1,17 @@
+
+
+# Log files
+*.log
+
+# Node modules (if you ever use npm)
+node_modules/
+
+# Environment files (if using API keys)
+.env
+
+# VS Code settings (optional)
+.vscode/
+
+# Build output (if using bundlers later)
+dist/
+build/

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat Facts Galore</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Cat Facts Galore 🐱</h1>
+      <button id="toggleTheme">🌙 Toggle Theme</button>
+    </header>
+
+    <main>
+      <div class="image-wrapper">
+        <img id="catImg" class="cat-img" src="https://placekitten.com/300/300" alt="Cute Cat" />
+        <!--  can add some audio here , like meow something-->
+      </div>
+
+      <p id="result">Click the button to get a cat fact!</p>
+
+      <div class="controls">
+        <button id="factBtn">🐾 Show New Fact</button>
+        <button id="saveBtn">💾 Save Favorite</button>
+        <button id="viewFavBtn">📁 View Favorites</button>
+      </div>
+
+      <div class="share-buttons">
+        <button id="shareTwitter">🐦 Share on Twitter</button>
+        <button id="shareWhatsApp">📱 Share on WhatsApp</button>
+      </div>
+
+      <div id="favoritesSection" class="favorites-section hidden">
+        <h2>Saved Favorites 🧡</h2>
+        <ul id="favoritesList"></ul>
+        <button id="closeFavBtn">❌ Close</button>
+      </div>
+      
+      <div class="custom-upload">
+        <label for="upload-cat">📷 Upload Your Cat</label>
+        <input type="file" accept="image/*" id="upload-cat">
+      </div>
+
+      
+      
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Cat Facts Galore. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
+
+
